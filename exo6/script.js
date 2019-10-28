@@ -1,6 +1,6 @@
-function changeImg(obj){ //obj est un paramètre qui correspond à l'élément qui à appeler la fonction.
-  obj.src = 'images/' + obj.id + '_2.jpg';
+function changeImg(image){ //obj est un paramètre qui correspond à l'élément qui à appeler la fonction.
+  image.src = 'images/' + image.id + '_2.jpg';
 }
-function rechangeImg(obj){
-  obj.src = 'images/' + obj.id + '.jpg';
+function rechangeImg(image){
+  image.src = 'images/' + image.id + '.jpg';
 }
